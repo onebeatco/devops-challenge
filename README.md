@@ -41,7 +41,7 @@ Attached: `.env` (if you used one)
 
 ### The result should
 
-1. Return `{ users: [{name: "USER NAME", email: "USER EMAIL"}, {name: "USER NAME", email: "USER EMAIL"}, etc...] }` to http://127.0.0.1:5000/secret
+1. Return `{ users: [{name: "USER NAME", email: "USER EMAIL"}, {name: "USER NAME", email: "USER EMAIL"}, etc...] }` to http://127.0.0.1:5000/users
 2. Return `{ status: healthy, container: <LINK_TO_HUB>, project: github.com/onebeatco/ecscale }` to http://127.0.0.1:5000/health
 3. Running `docker-compose up` should get everything up and running
 4. Contain a minimal test suit
